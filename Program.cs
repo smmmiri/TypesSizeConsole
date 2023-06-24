@@ -1,8 +1,8 @@
 ﻿using System.Runtime.InteropServices;
 
-var headlinesColumn = new List<string> { "Type", "Byte(s) of memory", "Min", "Max" };
+var headlineColumns = new List<string> { "Type", "Byte(s) of memory", "Min", "Max" };
 
-var headline = $"{headlinesColumn[0],-8}{headlinesColumn[1],-20}{headlinesColumn[2],14}{headlinesColumn[3],31}";
+var headline = $"{headlineColumns[0],-8}{headlineColumns[1],-20}{headlineColumns[2],15}{headlineColumns[3],31}";
 
 Seperate(headline);
 Console.WriteLine(headline);
@@ -25,7 +25,7 @@ var types = new List<Type>
 
 foreach (var type in types)
 {
-    Console.WriteLine($"{type.Name.ToLower(),-8}{Marshal.SizeOf(type)}{type.GetField("MinValue")?.GetValue(null),33}" +
+    Console.WriteLine($"{type.Name.ToLower(),-8}{Marshal.SizeOf(type),-5}{type.GetField("MinValue")?.GetValue(null),30}" +
         $"{type.GetField("MaxValue")?.GetValue(null),31}");
 }
 
