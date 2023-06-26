@@ -1,1 +1,5 @@
-* @smmmiri
+# This is a CODEOWNERS file for the repository.
+# It defines the owners of specific files or directories.
+
+# Default owner for all files
+*       @smmmiri
