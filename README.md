@@ -2,7 +2,11 @@
 
 ## Project Description
 
-This small console application calculates and displays the size of common types in C#. It helps you understand the memory consumption of different data types in your C# programs.
+This small console application calculates and displays the size of common types in C#.
+
+## What is this code good for practicing?
+
+It helps you understand the memory consumption of different data types in your C# programs.
 
 ## Usage
 
