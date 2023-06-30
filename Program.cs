@@ -25,8 +25,8 @@ var types = new List<Type>
 
 foreach (var type in types)
 {
-    Console.WriteLine($"{type.Name.ToLower(),-8}{Marshal.SizeOf(type),-5}{type.GetField("MinValue")?.GetValue(null),30}" +
-        $"{type.GetField("MaxValue")?.GetValue(null),31}");
+    Console.WriteLine($"{type.Name.ToLower(),-8}{Marshal.SizeOf(type),-5}" +
+        $"{type.GetField("MinValue")?.GetValue(null),30}{type.GetField("MaxValue")?.GetValue(null),31}");
 }
 
 Seperate(headline);
