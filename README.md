@@ -6,7 +6,7 @@ This small console application calculates and displays the size of common types 
 
 ## What is this code good for practicing?
 
-It helps you understand the memory consumption of different data types in your C# programs.
+This code is good for string alignments and also it helps you understand the memory consumption of different data types in your C# programs.
 
 ## Usage
 
