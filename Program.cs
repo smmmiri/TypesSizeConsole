@@ -31,6 +31,9 @@ foreach (var type in types)
 
 Seperate(headline);
 
+Console.WriteLine("\nPress any key to exit . . .");
+Console.ReadLine();
+
 static void Seperate(string headline)
 {
     Console.WriteLine(new string('-', headline.Length));
