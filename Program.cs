@@ -38,5 +38,3 @@ static void Seperate(string headline)
 {
     Console.WriteLine(new string('-', headline.Length));
 }
-
-
